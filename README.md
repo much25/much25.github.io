@@ -125,10 +125,53 @@
   <!-- Home Section -->
   <section id="home" class="py-5" style="background-image: url('keren.avif');">
     <div class="container">
-      <h1 style="color: white;">Selamat Datang di Profil Saya</h1>
+        <h1 id="welcome" style="color: white;">Selamat Datang di Profil Saya</h1>
 
-        <!-- Add content here -->
+        <!-- Content here -->
+
+        <div class="profile-pic-container">
+            <img src="cipung.jpeg" alt="Foto Profil" class="img-fluid rounded profile-pic">
+        </div>
     </div>
+
+    <style>
+        /* Animasi teks */
+        @keyframes moveText {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        /* Gaya untuk teks bergerak */
+        #welcome {
+            position: relative;
+            animation: moveText 10s linear infinite; 
+        }
+
+        /* Gaya untuk container gambar */
+        .profile-pic-container {
+            width: 220px;
+            height: 220px;
+            overflow: hidden;
+            border: 2px solid transparent;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .profile-pic-container:hover {
+            border-color: white;
+        }
+
+        .profile-pic {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    </style>
 </section>
 
   </section>
@@ -139,7 +182,7 @@
       <h2>Tentang Saya</h2>
       <div class="row">
         <div class="col-md-4">
-          <img src="cipung.jpeg" alt="Foto Profil" class="img-fluid rounded-circle">
+         
           
         </div>
         <div class="col-md-8">
@@ -199,3 +242,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
