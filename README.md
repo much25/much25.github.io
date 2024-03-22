@@ -1,4 +1,4 @@
-# much25.github.io
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -129,12 +129,12 @@
 
         <!-- Content here -->
 
-        <div class="profile-pic-container">
+   <div class="profile-pic-container">
             <img src="cipung.jpeg" alt="Foto Profil" class="img-fluid rounded profile-pic">
         </div>
     </div>
 
-    <style>
+  <style>
         /* Animasi teks */
         @keyframes moveText {
             0% {
@@ -184,7 +184,7 @@
         <div class="col-md-4">
          
           
-        </div>
+ </div>
         <div class="col-md-8">
           <p>
             Nama saya Muchdor Bafaqih. Saya lahir di Jombang pada 25 Mei 2004. Saat ini, saya sedang menempuh kuliah di Universitas Hasyim Asy'ari dengan fokus pada keahlian dalam coding. Saya memiliki minat yang besar dalam bidang pengembangan perangkat lunak dan senang mempelajari hal-hal baru seputar teknologi. Selain itu, saya aktif mengikuti berbagai
