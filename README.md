@@ -1,17 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profil - Muchdor Bafaqih</title>
- 
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-  
+  <!-- Custom CSS -->
   <style>
-   
+    /* Custom styles */
 
- 
+    /* Navbar */
     .navbar {
       padding: 1rem 0;
     }
@@ -24,36 +25,37 @@
       font-size: 1.1rem;
     }
 
-  
+    /* Sections */
     section {
       padding: 4rem 0;
     }
 
-    
+    /* Home Section */
     #home {
       background-color: #f8f9fa;
     }
 
-   
+    /* About Section */
     #about {
       background-color: #e9ecef;
     }
 
-   
+    /* Experience Section */
     #experience {
       background-color: #dee2e6;
     }
 
-  
+    /* Education Section */
     #education {
       background-color: #ced4da;
     }
 
+    /* Contact Section */
     #contact {
       background-color: #adb5bd;
     }
 
- 
+    /* Typography */
     h1, h2, h3, h4, h5, h6 {
       margin-bottom: 1.5rem;
     }
@@ -63,13 +65,14 @@
       line-height: 1.6;
     }
 
+    /* Container */
     .container {
       max-width: 960px;
       margin: 0 auto;
       padding: 0 15px;
     }
 
-   
+    /* Adjustments for smaller screens */
     @media (max-width: 768px) {
       .navbar-brand {
         font-size: 1.3rem;
@@ -83,7 +86,7 @@
 </head>
 <style>
   .contact-icon {
-      font-size: 34px;
+      font-size: 34px; /* Ubah ukuran ikon sesuai kebutuhan */
   }
 </style>
 
@@ -121,8 +124,9 @@
   <!-- Home Section -->
   <section id="home" class="py-5" style="background-image: url('keren.avif');">
     <div class="container">
-        <h1 id="welcome" style="color: blue;">Selamat Datang di Profil Saya</h1>
+        <h1 id="welcome" style="color: white;">Selamat Datang di Profil Saya</h1>
 
+        <!-- Content here -->
 
    <div class="profile-pic-container">
             <img src="cipung.jpeg" alt="Foto Profil" class="img-fluid rounded profile-pic">
@@ -140,13 +144,13 @@
             }
         }
 
-        
+        /* Gaya untuk teks bergerak */
         #welcome {
             position: relative;
             animation: moveText 10s linear infinite; 
         }
 
-
+        /* Gaya untuk container gambar */
         .profile-pic-container {
             width: 220px;
             height: 220px;
@@ -169,8 +173,7 @@
     </style>
 </section>
 
-
-
+  <!-- About Section -->
   <section id="about" class="py-5">
     <div class="container">
       <h2>Tentang Saya</h2>
@@ -188,7 +191,7 @@
     </div>
   </section>
 
-
+  <!-- Experience Section -->
   <section id="experience" class="py-5">
     <div class="container">
       <h2>Pengalaman</h2>
@@ -196,6 +199,7 @@
     </div>
   </section>
 
+  <!-- Education Section -->
   <section id="education" class="py-5">
     <div class="container">
       <h2>Pendidikan</h2>
@@ -205,7 +209,7 @@
     </div>
   </section>
 
-
+  <!-- Contact Section -->
   <section id="contact" class="py-5">
     <div class="container">
         <h2>Kontak</h2>
@@ -230,7 +234,7 @@
 
 
 
- 
+  <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
