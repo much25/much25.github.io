@@ -126,7 +126,6 @@
     <div class="container">
         <h1 id="welcome" style="color: white;">Selamat Datang di Profil Saya</h1>
 
-        <!-- Content here -->
 
    <div class="profile-pic-container">
             <img src="cipung.jpeg" alt="Foto Profil" class="img-fluid rounded profile-pic">
