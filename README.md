@@ -122,7 +122,7 @@
   <!-- Home Section -->
   <section id="home" class="py-5" style="background-image: url('keren.avif');">
     <div class="container">
-        <h1 id="welcome" style="color: white;">Selamat Datang di Profil Saya</h1>
+        <h1 id="welcome" style="color: blue;">Selamat Datang di Profil Saya</h1>
 
 
    <div class="profile-pic-container">
