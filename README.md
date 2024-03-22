@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -170,7 +169,6 @@
     </style>
 </section>
 
-  </section>
 
 
   <section id="about" class="py-5">
@@ -230,7 +228,6 @@
     </div>
 </section>
 
-</section>
 
 
  
