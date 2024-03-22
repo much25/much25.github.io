@@ -129,6 +129,7 @@
 
    <div class="profile-pic-container">
             <img src="cipung.jpeg" alt="Foto Profil" class="img-fluid rounded profile-pic">
+        </div>
     </div>
 
   <style>
